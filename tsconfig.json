@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    "module": "es2022",
-    "target": "es2022",
+    "target": "ES2016",
     "lib": [
       "es2022"
     ],
@@ -18,9 +17,11 @@
     "strict": true,
     "noImplicitAny": false,
     "useUnknownInCatchVariables": false,
-    "declaration": true
+    "declaration": true,
+    "types": ["@cloudflare/workers-types"]
   },
   "include": [
+    "index.d.ts",
     "src/**/*.ts"
   ],
   "exclude": [
