@@ -1,0 +1,9 @@
+{
+  "editor.tabCompletion": "on",
+  "path-intellisense.mappings": {
+    "/*": "${workspaceFolder}/*"
+  },
+  "i18n-ally.localesPaths": [
+    "src/localization/data"
+  ]
+}
