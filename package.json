@@ -1,5 +1,6 @@
 {
   "name": "generate-contact-bot",
+  "description": "im gay",
   "version": "1.0.0",
   "main": "out/worker.js",
   "type": "module",
